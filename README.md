@@ -51,7 +51,7 @@ pip install streamlit pandas plotly
 
 Jalankan aplikasi dengan perintah:
 ```bash
-streamlit run FuzzyCode.py
+streamlit run data.py
 ```
 
 Sistem akan berjalan pada browser default Anda dengan tampilan:
