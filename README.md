@@ -2,15 +2,6 @@
 
 Implementasi sistem pendukung keputusan kelayakan kredit menggunakan Fuzzy Sugeno. Sistem ini mengevaluasi 5 kriteria (Character, Capital, Capacity, Collateral, Condition) dengan 48 rules untuk menghasilkan rekomendasi penerimaan kredit.
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [System Components](#system-components)
-- [Contributing](#contributing)
-- [Author](#author)
-
 ## ⭐ Features
 - Evaluasi kelayakan kredit berbasis prinsip 5C:
   - Character (karakter nasabah)
