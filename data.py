@@ -497,7 +497,7 @@ class CreditEvaluationUI:
     @staticmethod
     def display_fuzzification_calculation(inputs, rule_number=10):
         """Display detailed fuzzification calculation"""
-        st.markdown("### Studi Kasus (Fuzzifikasi)")
+        st.markdown("### Proses Fuzzifikasi")
         st.markdown(f"Menghitung derajat keanggotaan untuk setiap input:")
 
         # Character calculations
@@ -1039,7 +1039,7 @@ class CreditEvaluationUI:
             st.metric("Nilai Defuzzifikasi", f"{z:.2f}")
 
         # Display input values and visualization in expanders
-        with st.expander("Lihat Nilai Input 5C"):
+        with st.expander("Rekap Nilai Input 5C"):
             for criteria, value in inputs.items():
                 st.write(f"{criteria}: {value:.2f}")
 
@@ -1069,7 +1069,7 @@ class CreditEvaluationUI:
 
 def main():
     """Main function to run the credit evaluation system"""
-    st.title("Sistem Evaluasi Kelayakan Kredit")
+    st.title("Sistem Fuzzy Kelayakan Kredit 5C")
     st.markdown(
         """
         Sistem ini menggunakan logika fuzzy Sugeno untuk mengevaluasi kelayakan kredit 
